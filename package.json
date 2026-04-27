@@ -1,14 +1,17 @@
 {
   "name": "messenger-bot",
   "version": "1.0.0",
+  "description": "Facebook Messenger Bot (fca-priyansh)",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "fca-priyansh": "latest",
     "express": "^4.21.2",
-    "config": "^4.0.0"
+    "fca-priyansh": "github:PRIYANSH-XD/fca-priyansh"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
