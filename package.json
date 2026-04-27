@@ -7,7 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "fca-priyansh": "latest",
     "express": "^4.21.2",
-    "fca-priyansh": "^18.0.0"
+    "config": "^4.0.0"
   }
 }
